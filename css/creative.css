@@ -296,27 +296,51 @@ header .header-content .header-content-inner p {
   outline: none;
 }
 
-.ex-aa:hover, .ex-bb:hover, .ex-cc:hover, .ex-dd:hover, .ex-ee:hover, .ex-ff:hover {
-  background: rgba(225, 225, 225, 0.4);
-}
+
 
 .timeline {
   
 }
 
-.timeline-date {
-  margin-bottom: -15px;
-  padding-top: 15px;
-  font-weight: bold;
-  font-size: 13px;
+.timeline-section {
+ padding-left: 0;
+ padding-right: 0;
 }
 
 
-.timeline-place {
+.ex-aa:hover, .ex-bb:hover, .ex-cc:hover, .ex-dd:hover, .ex-ee:hover, .ex-ff:hover {
+  background: rgba(225, 225, 225, 0.4);
+}
+
+.timeline-date {
+/*  margin-bottom: -15px;
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 13px;*/
+  padding: 15px 20px;
+  border-bottom: white solid 1px;
+}
+
+.timeline-name {
+  padding: 15px 20px;
+}
+
+.timeline-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: white;
+  position: absolute;
+  top: 45px;
+  left: calc(50% - 5px);
+}
+
+
+/*.timeline-place {
   padding-top: 6px;
   border-top: solid white 1px;
   font-size: 13px;
-}
+}*/
 
 .ex-years {
   margin: 10px 0; 
@@ -536,4 +560,7 @@ body {
   .self {
     max-width: 200px;
   }
+
+  .hidden-mobile {
+display: none;  }
 }
