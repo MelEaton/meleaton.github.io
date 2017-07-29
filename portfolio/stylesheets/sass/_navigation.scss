@@ -1,0 +1,59 @@
+/*----- navigation -----*/
+a, a:link, a:visited, a:hover, a:active {
+    outline: none;
+    text-decoration: none;
+}
+
+.navbar-toggle {
+	border: none;
+	padding: 0 5px;
+}
+
+nav .navbar-nav{
+	float: right;
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+	color: #1a1a1a;
+}
+
+.navbar ul {
+	margin-top: 0;
+}
+
+nav .navbar-nav li {
+	background: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+nav .navbar-nav li:hover {
+	background: #e4e4e4;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar {
+	background: rgba(250, 250, 250, 0.9);
+	border: none;
+}
+
+.logo {
+	height: 30px;
+	position: relative;
+	bottom: 8px;
+}
+
+.mini-schade {
+	font-size: 35px;
+	letter-spacing: 1px;
+	line-height: 0;
+	margin-left: 5px;
+	position: relative;
+	top: 1px;
+	color: #797979;
+	font-family: 'Amatic SC', cursive;
+}

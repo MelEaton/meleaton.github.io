@@ -1,0 +1,218 @@
+/*----- Header -----*/
+
+header {
+	margin: 0px;
+}
+
+/*-- head --*/
+
+.head {
+	background-image: url("../images/backgrounds/background.jpg");
+}
+
+.amelie-illo {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.amelie-illo2 {
+	max-width: 300px;
+	margin: 20px 0 0 20px;
+}
+
+.photo-strip {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 230px;
+}
+
+/*-- CTA --*/
+
+.cta-index-big {
+	position: absolute;
+	margin: 20px 0 0 20px;
+	font-family: 'Devonshire', cursive;
+	font-size: 28px;
+	max-width: 300px;
+}
+
+.cta-index-small, .cta-head-small {
+	font-family: 'Devonshire', cursive;
+	font-size: 28px;
+	padding: 10px 0;
+}
+
+.cta-head-large {
+	font-family: 'Devonshire', cursive;
+	font-size: 28px;
+	padding: 10px 0;
+	margin-top: 100px;
+}
+
+/*.cta-head-med {
+	position: absolute;
+	right: 0px;
+	margin: 20px 0 0 20px;
+	font-family: 'Devonshire', cursive;
+	font-size: 28px;
+	max-width: 300px;
+}
+
+.cta-icon-med {
+	margin: 0 auto;
+	width: 60px;
+	padding: 0 10px 0 0;
+}*/
+
+.grow {
+	padding: 10px;
+}
+
+.cta-icon {
+	margin: 0 auto;
+	width: 70px;
+	padding: 0 10px 0 0;
+}
+
+.cta-small {
+	margin: 0 auto;
+	opacity: 0.8;
+}
+
+.cta-small:hover {
+	opacity: 1;
+}
+
+.cta-big{
+	opacity: 0.8;
+}
+
+.cta-big:hover {
+	opacity: 1;
+}
+
+/*-- banner --*/
+
+.banner {
+	background-image: url("../images/backgrounds/velvet.jpg");
+	text-align: center;
+}
+
+.headline {
+	margin: 0 auto;
+	max-width: 450px;
+}
+
+.headline2 {
+	margin: 0 0 0 20px;
+	max-width: 300px;
+}
+
+.title {
+	font-family: 'Devonshire', cursive;
+	color: #bba047;
+	display: inline;
+    position: relative;
+    left: 40px;
+}
+
+.main-title {
+	font-size: 120px;
+	line-height: 1;
+}
+
+ .extra-title {
+ 	line-height: 0;
+ 	font-size: 45px;
+ 	margin: 0px 10px 0px 10px;
+ }
+
+.fabuleux {
+	position: relative;
+	top: 40px;
+	right: 167px;
+}
+
+.destin {
+	position: relative;
+	top: 40px;
+	right: 153px;
+}
+
+.director {
+	line-height: 0;
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+.by {
+	font-family: 'Devonshire', cursive;
+	font-size: 25px;
+	padding-right: 10px;
+}
+
+.jpj {
+	font-family: 'Dorsa', sans-serif;
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+
+.tagline {
+	font-family: 'Six Caps', sans-serif;
+	font-size: 40px;
+	line-height: 1;
+	letter-spacing: 2px;
+}
+
+/*-- info --*/
+
+.info {
+	background-color: #084228;
+	color: #f7eddd;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+.stats {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	position: relative;
+	top: 10px;
+}
+
+.rating1 {
+	font-family: 'Six Caps', sans-serif;
+	font-size: 40px;
+	line-height: 0;
+	position: relative;
+	top: 15px;
+}
+
+.rating2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	line-height: 0;
+	position: relative;
+	top: 15px;
+}
+
+.credits {
+	max-width: 80%;
+}
+
+.info-icon {
+	width: 50px;
+}
+
+@media screen and (max-width: 990px) {
+
+  .title {
+        position: relative;
+        left: 0px;
+    }
+
+  }
+

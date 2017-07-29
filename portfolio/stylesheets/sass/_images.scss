@@ -1,0 +1,89 @@
+/*----- images -----*/
+
+/*-- portfolio section --*/
+
+.lightbox {
+	list-style:none;
+}
+
+.slide-container {
+	float: left;
+	max-width: 30%;
+	min-width: 300px;
+}
+
+.slide-container {
+	float: left;
+	max-width: 33.33%;
+	min-width: 300px;
+	opacity: 1;
+	color: transparent;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.slide-container:hover {
+	opacity: .5;
+	color: #000;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.slide-img {
+	max-width: 100%;
+}
+
+.slide-text {
+	font-family: 'Amatic SC', cursive;
+	text-decoration: none;
+	font-size: 40px;
+	display: block;
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+}
+
+/*-- skills section --*/
+
+.computer { 
+      width: 90%;
+      position: relative;
+      right: 15px;
+}
+
+.mobile {
+	float: right;
+	width: 90%;
+	position: relative;
+    left: 15px;
+}
+
+.skill-icon {
+	padding-top: 30px;
+}
+
+/*-- about section --*/
+
+.ven {
+	margin-top: 30px;
+	height: 300px;
+	opacity: 0.8;
+	padding-top: 20px;
+}
+
+.portrait {
+	margin: 0 auto;
+	position: relative;
+	bottom: 30px;
+}
+
+@media(min-width:971px) {
+	.ven {
+		float: right;
+		position: relative;
+		left: 80px;
+	}
+
+}

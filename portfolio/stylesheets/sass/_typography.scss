@@ -1,0 +1,86 @@
+/*----- typography -----*/
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 400;
+	font-size: 60px;
+	color: #797979;
+	line-height: 0.3;
+}
+
+h2 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 400;
+	font-size: 40px;
+	padding-left: 10px;
+}
+
+h3 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+h4 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 400;
+	font-size: 25px;
+	color: #797979;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+p {
+	font-size: 18px;	
+}
+
+.indent {
+	padding-left: 20px;
+}
+
+
+.work {
+	margin-left: 20px;
+}
+
+/*-- portfolio --*/
+
+.projector-cta {
+	font-size: 25px;
+	letter-spacing: 3px;
+}
+
+/*-- skills --*/
+
+.skills-blurb {
+	padding: 30px 0;
+}
+
+.skills {
+	font-size: 18px;
+}
+
+.skill-bold {
+	font-size: 20px;
+	font-weight: bold;
+	width: 100px;
+}
+
+.skills-text {
+	width: 300px;
+	display: inline-block;
+}
+
+/*-- about --*/
+
+.me-points {
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
+
+

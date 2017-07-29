@@ -1,0 +1,791 @@
+/* 
+Stylesheet for Amelie movie promotion
+*/
+/*----- Reset -----*/
+/* line 3, _reset.scss */
+body {
+  margin: 0;
+}
+
+/* line 8, _reset.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/*----- Header -----*/
+/* line 3, _header.scss */
+header {
+  margin: 0px;
+}
+
+/*-- head --*/
+/* line 9, _header.scss */
+.head {
+  background-image: url("../images/backgrounds/background.jpg");
+}
+
+/* line 13, _header.scss */
+.amelie-illo {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+/* line 20, _header.scss */
+.amelie-illo2 {
+  max-width: 300px;
+  margin: 20px 0 0 20px;
+}
+
+/* line 25, _header.scss */
+.photo-strip {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 230px;
+}
+
+/*-- CTA --*/
+/* line 34, _header.scss */
+.cta-index-big {
+  position: absolute;
+  margin: 20px 0 0 20px;
+  font-family: 'Devonshire', cursive;
+  font-size: 28px;
+  max-width: 300px;
+}
+
+/* line 42, _header.scss */
+.cta-index-small, .cta-head-small {
+  font-family: 'Devonshire', cursive;
+  font-size: 28px;
+  padding: 10px 0;
+}
+
+/* line 48, _header.scss */
+.cta-head-large {
+  font-family: 'Devonshire', cursive;
+  font-size: 28px;
+  padding: 10px 0;
+  margin-top: 100px;
+}
+
+/*.cta-head-med {
+	position: absolute;
+	right: 0px;
+	margin: 20px 0 0 20px;
+	font-family: 'Devonshire', cursive;
+	font-size: 28px;
+	max-width: 300px;
+}
+
+.cta-icon-med {
+	margin: 0 auto;
+	width: 60px;
+	padding: 0 10px 0 0;
+}*/
+/* line 70, _header.scss */
+.grow {
+  padding: 10px;
+}
+
+/* line 74, _header.scss */
+.cta-icon {
+  margin: 0 auto;
+  width: 70px;
+  padding: 0 10px 0 0;
+}
+
+/* line 80, _header.scss */
+.cta-small {
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+/* line 85, _header.scss */
+.cta-small:hover {
+  opacity: 1;
+}
+
+/* line 89, _header.scss */
+.cta-big {
+  opacity: 0.8;
+}
+
+/* line 93, _header.scss */
+.cta-big:hover {
+  opacity: 1;
+}
+
+/*-- banner --*/
+/* line 99, _header.scss */
+.banner {
+  background-image: url("../images/backgrounds/velvet.jpg");
+  text-align: center;
+}
+
+/* line 104, _header.scss */
+.headline {
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+/* line 109, _header.scss */
+.headline2 {
+  margin: 0 0 0 20px;
+  max-width: 300px;
+}
+
+/* line 114, _header.scss */
+.title {
+  font-family: 'Devonshire', cursive;
+  color: #bba047;
+  display: inline;
+  position: relative;
+  left: 40px;
+}
+
+/* line 122, _header.scss */
+.main-title {
+  font-size: 120px;
+  line-height: 1;
+}
+
+/* line 127, _header.scss */
+.extra-title {
+  line-height: 0;
+  font-size: 45px;
+  margin: 0px 10px 0px 10px;
+}
+
+/* line 133, _header.scss */
+.fabuleux {
+  position: relative;
+  top: 40px;
+  right: 167px;
+}
+
+/* line 139, _header.scss */
+.destin {
+  position: relative;
+  top: 40px;
+  right: 153px;
+}
+
+/* line 145, _header.scss */
+.director {
+  line-height: 0;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+/* line 151, _header.scss */
+.by {
+  font-family: 'Devonshire', cursive;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+/* line 157, _header.scss */
+.jpj {
+  font-family: 'Dorsa', sans-serif;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+/* line 163, _header.scss */
+.tagline {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+/*-- info --*/
+/* line 172, _header.scss */
+.info {
+  background-color: #084228;
+  color: #f7eddd;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+/* line 179, _header.scss */
+.stats {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+}
+
+/* line 186, _header.scss */
+.rating1 {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 40px;
+  line-height: 0;
+  position: relative;
+  top: 15px;
+}
+
+/* line 194, _header.scss */
+.rating2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  line-height: 0;
+  position: relative;
+  top: 15px;
+}
+
+/* line 202, _header.scss */
+.credits {
+  max-width: 80%;
+}
+
+/* line 206, _header.scss */
+.info-icon {
+  width: 50px;
+}
+
+@media screen and (max-width: 990px) {
+  /* line 212, _header.scss */
+  .title {
+    position: relative;
+    left: 0px;
+  }
+}
+/*----- Typography -----*/
+/*-- 
+
+FONTS USED:
+font-family: 'Devonshire', cursive;
+font-family: 'Dorsa', sans-serif;
+font-family: 'Six Caps', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+Style details below are for general page typography and all header text
+Typography styling for other additional text elements on pages are on matching page stylesheets
+
+--*/
+/*-- general --*/
+/* line 18, _typography.scss */
+h2 {
+  font-family: 'Devonshire', cursive;
+  font-size: 70px;
+  color: #353535;
+}
+
+/* line 24, _typography.scss */
+h3 {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 40px;
+  color: #a04e33;
+  line-height: 0;
+}
+
+/* line 31, _typography.scss */
+.para-container {
+  background-color: #f7eddd;
+  padding: 30px;
+}
+
+/* line 36, _typography.scss */
+.para-title {
+  padding: 15px;
+}
+
+/* line 40, _typography.scss */
+.para {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #353535;
+  padding: 15px;
+}
+
+/*----- Links -----*/
+/* line 3, _links.scss */
+a, a:link, a:visited, a:hover, a:active {
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 8, _links.scss */
+a, a:visited {
+  color: #f7eddd;
+}
+
+/* line 12, _links.scss */
+a:hover {
+  color: #bba047;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/*----- Navigation -----*/
+/* line 3, _navigation.scss */
+.navigate {
+  font-family: 'Devonshire', cursive;
+  font-size: 50px;
+  color: #f7eddd;
+  background-color: #912429;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 0px;
+}
+
+/* line 16, _navigation.scss */
+li a {
+  color: #f7eddd;
+}
+
+/* line 20, _navigation.scss */
+a:hover {
+  color: #bba047;
+}
+
+/* line 24, _navigation.scss */
+.nav-container {
+  background-color: #f7eddd;
+  height: 100px;
+}
+
+/* line 29, _navigation.scss */
+.play {
+  width: 100px;
+  height: 100px;
+  background: url("../images/sprites.svg") 0 0;
+}
+
+/*---- index ----*/
+/* line 3, _index.scss */
+.main-index {
+  background: #f7eddd;
+  padding: 30px 0;
+}
+
+/*-- typography --*/
+/* line 9, _index.scss */
+.synop {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #353535;
+  padding: 0 15px 0 15px;
+}
+
+/* line 16, _index.scss */
+.block {
+  padding: 0 0 0 15px;
+}
+
+/* line 20, _index.scss */
+blockquote {
+  margin-top: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #353535;
+  border-left: solid 6px #a04e33;
+}
+
+/* line 28, _index.scss */
+.quote {
+  position: relative;
+  bottom: 5px;
+}
+
+/* line 33, _index.scss */
+.cite-name {
+  font-family: 'Devonshire', cursive;
+  font-size: 40px;
+  color: #A04E33;
+  text-align: right;
+  line-height: 0;
+  padding-right: 10px;
+}
+
+/* line 42, _index.scss */
+.cite-source {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 40px;
+  color: #353535;
+  text-align: right;
+  line-height: 1;
+  padding-right: 10px;
+}
+
+/*-- images --*/
+/* line 52, _index.scss */
+.awards {
+  padding: 10px 0 20px 0;
+}
+
+/* line 55, _index.scss */
+.laurels {
+  width: 100%;
+}
+
+/* line 59, _index.scss */
+.poster {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 10px 20px 10px;
+}
+
+/*----- cast -----*/
+/*-- typography --*/
+/* line 6, _cast.scss */
+.car-name {
+  font-family: 'Devonshire', cursive;
+  color: #353535;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+/* line 13, _cast.scss */
+.actor-name {
+  font-family: 'Raleway', sans-serif;
+  color: #353535;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 0;
+}
+
+/*-- images --*/
+/* line 23, _cast.scss */
+.JPJeunet {
+  width: 100%;
+  padding: 30px 20px 0 0;
+}
+
+/* line 28, _cast.scss */
+.MFolco {
+  width: 100%;
+  padding: 30px 0 0 20px;
+}
+
+/* line 33, _cast.scss */
+.Folco {
+  float: right;
+  width: 60%;
+}
+
+/*-- slider --*/
+/* line 40, _cast.scss */
+.well {
+  width: 80%;
+}
+
+/* line 44, _cast.scss */
+.cast {
+  background-image: url("../images/backgrounds/velvet.jpg");
+  height: 40px;
+}
+
+/* line 49, _cast.scss */
+.carousel {
+  padding: 20px;
+}
+
+/* line 53, _cast.scss */
+.slideshow {
+  background-image: url("../images/backgrounds/paper.png");
+}
+
+/*-- slider images --*/
+/* line 75, _cast.scss */
+.amelie,
+.nino,
+.raphael,
+.amandine,
+.lucien,
+.collignon,
+.raymond,
+.flora,
+.dominique,
+.madeline,
+.joseph,
+.georgette,
+.suzanne,
+.gina,
+.hipolito,
+.voisin {
+  opacity: 1;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* line 99, _cast.scss */
+.amelie:hover,
+.nino:hover,
+.raphael:hover,
+.amandine:hover,
+.lucien:hover,
+.collignon:hover,
+.raymond:hover,
+.flora:hover,
+.dominique:hover,
+.madeline:hover,
+.joseph:hover,
+.georgette:hover,
+.suzanne:hover,
+.gina:hover,
+.hipolito:hover,
+.voisin:hover {
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* line 108, _cast.scss */
+.amelie-back {
+  background: url("../images/cast/14.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 116, _cast.scss */
+.nino-back {
+  background: url("../images/cast/16.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 124, _cast.scss */
+.raphael-back {
+  background: url("../images/cast/7.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 132, _cast.scss */
+.amandine-back {
+  background: url("../images/cast/10.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 140, _cast.scss */
+.lucien-back {
+  background: url("../images/cast/9.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 148, _cast.scss */
+.collignon-back {
+  background: url("../images/cast/5.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 156, _cast.scss */
+.raymond-back {
+  background: url("../images/cast/4.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 164, _cast.scss */
+.flora-back {
+  background: url("../images/cast/11.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 172, _cast.scss */
+.dominique-back {
+  background: url("../images/cast/1.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 180, _cast.scss */
+.madeline-back {
+  background: url("../images/cast/8.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 188, _cast.scss */
+.joseph-back {
+  background: url("../images/cast/15.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 196, _cast.scss */
+.georgette-back {
+  background: url("../images/cast/12.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 204, _cast.scss */
+.suzanne-back {
+  background: url("../images/cast/2.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 212, _cast.scss */
+.gina-back {
+  background: url("../images/cast/3.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 220, _cast.scss */
+.hipolito-back {
+  background: url("../images/cast/6.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/* line 228, _cast.scss */
+.voisin-back {
+  background: url("../images/cast/13.jpg");
+  background-size: cover;
+  width: 98%;
+  max-width: 240px;
+  max-height: 310px;
+}
+
+/*---- music ----*/
+/* line 3, _music.scss */
+.music {
+  float: right;
+}
+
+/*-- typography --*/
+/* line 12, _music.scss */
+.buy {
+  font-family: 'Devonshire', cursive;
+  color: #a04e33;
+  font-size: 70px;
+}
+
+/*-- images --*/
+/* line 20, _music.scss */
+.YT {
+  width: 100%;
+  padding: 30px 0 0 20px;
+}
+
+/*----- location -----*/
+/* line 3, _location.scss */
+.sky {
+  background-image: url("../images/backgrounds/clouds.jpg");
+}
+
+/* line 7, _location.scss */
+.location-title {
+  background-color: #f7eddd;
+  padding: 0 0 20px 0;
+}
+
+/*-- images --*/
+/* line 13, _location.scss */
+.montmatre {
+  position: relative;
+}
+
+/* line 16, _location.scss */
+.mont {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 100;
+}
+
+/* line 23, _location.scss */
+.tower {
+  float: right;
+}
+
+/*----- gallery -----*/
+/* line 3, _gallery.scss */
+.gallery {
+  background-image: url("../images/backgrounds/bed.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+}
+
+/*----- footer -----*/
+/* line 3, _footer.scss */
+.stripe {
+  background-color: #084228;
+  height: 30px;
+}
+
+/* line 8, _footer.scss */
+footer {
+  background-image: url("../images/backgrounds/background.jpg");
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  color: #f7eddd;
+}
+
+/* line 17, _footer.scss */
+.footer {
+  padding: 20px 0;
+}
+
+/* line 20, _footer.scss */
+.mel {
+  height: 50px;
+  float: right;
+}
+
+/* line 25, _footer.scss */
+.mirimax {
+  width: 100%;
+  float: right;
+}
+
+/*@media(min-width: 192px) {
+    .title {
+        position: relative;
+        left: 0px;
+    }
+}*/

@@ -1,0 +1,33 @@
+/*----- Navigation -----*/
+
+.navigate {
+		font-family: 'Devonshire', cursive;
+		font-size: 50px;
+		color: #f7eddd;
+		background-color: #912429;
+		text-decoration: none;
+		padding: 10px;
+		border-radius: 0px;		
+		}
+	
+li {		
+}
+
+li a {
+color: #f7eddd;
+}
+
+a:hover {
+	color: #bba047;
+}
+
+.nav-container {
+	background-color: #f7eddd;
+	height: 100px;
+}
+
+.play {
+	width: 100px;
+    height: 100px;
+    background: url("../images/sprites.svg") 0 0;
+}

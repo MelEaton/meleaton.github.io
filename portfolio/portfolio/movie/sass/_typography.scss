@@ -1,0 +1,46 @@
+/*----- Typography -----*/
+
+/*-- 
+
+FONTS USED:
+font-family: 'Devonshire', cursive;
+font-family: 'Dorsa', sans-serif;
+font-family: 'Six Caps', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+Style details below are for general page typography and all header text
+Typography styling for other additional text elements on pages are on matching page stylesheets
+
+--*/
+
+/*-- general --*/
+
+h2 {
+	font-family: 'Devonshire', cursive;
+	font-size: 70px;
+	color: #353535;
+}
+
+h3 {
+	font-family: 'Six Caps', sans-serif;
+	font-size: 40px;
+	color: #a04e33;
+	line-height: 0;
+}
+
+.para-container {
+	background-color: #f7eddd;
+	padding: 30px;
+}
+
+.para-title {
+	padding: 15px;
+}
+
+.para {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: #353535;
+	padding: 15px;
+}
+

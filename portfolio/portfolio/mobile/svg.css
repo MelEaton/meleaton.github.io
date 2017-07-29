@@ -1,0 +1,207 @@
+.top {
+	/*-- Chrome --*/
+    -webkit-animation-name: spin; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 13s;
+    -webkit-transition: fill;
+	
+	/*-- firefox --*/
+    animation-name: spin; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+    animation-duration: 13s;
+    transition: fill;
+}
+
+/*-- Chrome --*/
+@-webkit-keyframes spin {  
+0% {  
+    -webkit-transform: rotate(180deg); -webkit-transform-origin: 50% 50%; fill: #a84e8e; 
+} 
+2% {  
+    -webkit-transform: rotate(180deg); -webkit-transform-origin: 50% 50%; fill: #a84e8e; 
+} 
+16% {  
+    -webkit-transform: rotate(0deg); -webkit-transform-origin: 50% 50%; fill: #18acc3;  
+}
+20% {  
+    -webkit-transform: rotate(0deg); -webkit-transform-origin: 50% 50%; fill: #18acc3;  
+}
+32% {  
+    -webkit-transform: rotate(0deg); -webkit-transform-origin: 50% 50%;  fill: #5d65a9;
+    }
+36% {  
+    -webkit-transform: rotate(0deg); -webkit-transform-origin: 50% 50%;  fill: #5d65a9;
+    }
+50% {  
+    -webkit-transform: rotate(90deg); -webkit-transform-origin: 50% 50%;  fill: #f27531;
+    }
+54% {  
+    -webkit-transform: rotate(90deg); -webkit-transform-origin: 50% 50%;  fill: #f27531;
+    } 
+66% {  
+    -webkit-transform: rotate(270deg); -webkit-transform-origin: 50% 50%; fill: #66b14b; 
+}
+70% {  
+    -webkit-transform: rotate(270deg); -webkit-transform-origin: 50% 50%; fill: #66b14b; 
+}
+83% {  
+    -webkit-transform: rotate(270deg); -webkit-transform-origin: 50% 50%; fill: #f1b337; 
+}
+87% {  
+    -webkit-transform: rotate(270deg); -webkit-transform-origin: 50% 50%; fill: #f1b337; 
+}
+100% {  
+    -webkit-transform: rotate(180deg); -webkit-transform-origin: 50% 50%; fill: #a84e8e; 
+}
+}
+
+/*-- firefox --*/
+@keyframes spin {  
+0% {  
+    transform: rotate(180deg);  transform-origin: center; fill: #a84e8e; 
+} 
+2% {  
+    transform: rotate(180deg);  transform-origin: center; fill: #a84e8e; 
+} 
+16% {  
+    transform: rotate(0deg);  transform-origin: center; fill: #18acc3;  
+}
+20% {  
+    transform: rotate(0deg);  transform-origin: center; fill: #18acc3;  
+}
+32% {  
+    transform: rotate(0deg);  transform-origin: center; fill: #5d65a9;
+    }
+36% {  
+    transform: rotate(0deg);  transform-origin: center; fill: #5d65a9;
+    }
+50% {  
+    transform: rotate(90deg);  transform-origin: center; fill: #f27531;
+    }
+54% {  
+    transform: rotate(90deg);  transform-origin: center; fill: #f27531;
+    } 
+66% {  
+    transform: rotate(270deg);  transform-origin: center; fill: #66b14b; 
+}
+70% {  
+    transform: rotate(270deg);  transform-origin: center; fill: #66b14b; 
+}
+83% {  
+    transform: rotate(270deg);  transform-origin: center; fill: #f1b337; 
+}
+87% {  
+    transform: rotate(270deg);  transform-origin: center; fill: #f1b337; 
+}
+100% {  
+    transform: rotate(180deg);  transform-origin: center; fill: #a84e8e; 
+}
+}
+
+
+.bottom {
+	/*-- Chrome --*/
+    -webkit-animation-name: spintwo; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 13s;
+    -webkit-transition: fill;
+
+	
+	/*-- firefox --*/
+    animation-name: spintwo; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+    animation-duration: 13s;
+    transition: fill;
+}
+
+/*-- Chrome --*/
+@-webkit-keyframes spintwo {  
+0% {  
+    -webkit-transform: rotate(0deg); -webkit-transform-origin: 50% 50%; fill: #a84e8e; 
+}
+2% {  
+    -webkit-transform: rotate(0deg); -webkit-transform-origin: 50% 50%; fill: #a84e8e;
+} 
+16% {  
+    -webkit-transform: rotate(0deg); -webkit-transform-origin: 50% 50%; fill: #18acc3;  
+}
+20% {  
+    -webkit-transform: rotate(0deg); -webkit-transform-origin: 50% 50%; fill: #18acc3;  
+}
+32% {  
+    -webkit-transform: rotate(0deg); -webkit-transform-origin: 50% 50%;  fill: #5d65a9;
+}
+36% {  
+    -webkit-transform: rotate(0deg); -webkit-transform-origin: 50% 50%;  fill: #5d65a9;
+} 
+50% {  
+    -webkit-transform: rotate(270deg); -webkit-transform-origin: 50% 50%;  fill: #f27531;
+}
+54% {  
+    -webkit-transform: rotate(270deg); -webkit-transform-origin: 50% 50%;  fill: #f27531;
+} 
+66% {  
+    -webkit-transform: rotate(90deg); -webkit-transform-origin: 50% 50%; fill: #66b14b; 
+}
+70% {  
+    -webkit-transform: rotate(90deg); -webkit-transform-origin: 50% 50%; fill: #66b14b; 
+}
+83% {  
+    -webkit-transform: rotate(90deg); -webkit-transform-origin: 50% 50%; fill: #f1b337; 
+}
+87% {  
+    -webkit-transform: rotate(90deg); -webkit-transform-origin: 50% 50%; fill: #f1b337; 
+}
+100% {  
+    -webkit-transform: rotate(0deg); -webkit-transform-origin: 50% 50%; fill: #a84e8e;
+}
+}
+
+
+
+/*-- firefox --*/
+@keyframes spintwo {  
+0% {  
+    transform: rotate(0deg); transform-origin: center; fill: #a84e8e; 
+}
+2% {  
+    transform: rotate(0deg); transform-origin: center; fill: #a84e8e;
+} 
+16% {  
+    transform: rotate(0deg); transform-origin: center; fill: #18acc3;  
+}
+20% {  
+    transform: rotate(0deg); transform-origin: center; fill: #18acc3;  
+}
+32% {  
+    transform: rotate(0deg); transform-origin: center; fill: #5d65a9;
+}
+36% {  
+    transform: rotate(0deg); transform-origin: center; fill: #5d65a9;
+} 
+50% {  
+    transform: rotate(270deg); transform-origin: center; fill: #f27531;
+}
+54% {  
+    transform: rotate(270deg); transform-origin: center; fill: #f27531;
+} 
+66% {  
+    transform: rotate(90deg); transform-origin: center; fill: #66b14b; 
+}
+70% {  
+    transform: rotate(90deg); transform-origin: center; fill: #66b14b; 
+}
+83% {  
+    transform: rotate(90deg); transform-origin: center; fill: #f1b337; 
+}
+87% {  
+    transform: rotate(90deg); transform-origin: center; fill: #f1b337; 
+}
+100% {  
+    transform: rotate(0deg); transform-origin: center; fill: #a84e8e;
+}
+}

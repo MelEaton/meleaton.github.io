@@ -1,0 +1,60 @@
+/*----- variables -----*/
+
+@media(min-width:767px) {
+
+    .navbar {
+        padding: 15px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .logo {
+        opacity: 0;
+        -webkit-transition: opacity .5s ease-in-out;
+        -moz-transition: opacity .5s ease-in-out;
+        transition: opacity .5s ease-in-out;
+    }
+
+    .mini-schade {
+            opacity: 0;
+            -webkit-transition: opacity .5s ease-in-out;
+            -moz-transition: opacity .5s ease-in-out;
+            transition: opacity .5s ease-in-out;
+        }
+
+    .top-nav-collapse {
+        padding: 0;
+
+        .logo {
+        	opacity: 1;
+        	-webkit-transition: opacity .5s ease-in-out;
+        	-moz-transition: opacity .5s ease-in-out;
+        	transition: opacity .5s ease-in-out;
+        }
+        
+        .mini-schade {
+        	opacity: 1;
+        	-webkit-transition: opacity .5s ease-in-out;
+        	-moz-transition: opacity .5s ease-in-out;
+        	transition: opacity .5s ease-in-out;
+        }
+    }
+}
+
+@media(max-width: 766px) {
+    nav .navbar-nav{
+        float: none;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #intro {
+        padding-top: 45px;
+    }
+
+    .hero-name {
+        margin: 0 auto;
+    }
+}
+

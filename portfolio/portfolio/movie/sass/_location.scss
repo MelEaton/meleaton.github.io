@@ -1,0 +1,26 @@
+/*----- location -----*/
+
+.sky {
+	background-image: url("../images/backgrounds/clouds.jpg");
+}
+
+.location-title {
+	background-color: #f7eddd;
+	padding: 0 0 20px 0;
+}
+
+/*-- images --*/
+.montmatre {
+	position: relative;
+}
+.mont {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	z-index: 100;
+}
+
+.tower {
+	float: right;
+}
+
