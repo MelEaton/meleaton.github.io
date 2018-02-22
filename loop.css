@@ -1,0 +1,130 @@
+html,
+
+body {
+    margin: 0px;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .body-pattern {
+    height: 100%;
+    width: 100%;
+    background-image: url(img/pattern2.png);
+    background-size: 100%;
+  }
+
+  .section-1 {
+background: rgb(0,174,239,0.6); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(0,174,239,0.6) 0%, rgba(159,118,180,0.6) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,174,239,0.6) 0%,rgba(159,118,180,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,174,239,0.6) 0%,rgba(159,118,180,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aeef', endColorstr='#9f76b4',GradientType=0 ); /* IE6-9 */
+  }
+
+  .section-2 {
+  background: rgb(159,118,180,0.6); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(159,118,180,0.6) 0%, rgba(236,0,140,0.6) 50%, rgba(240,92,137,0.6) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(159,118,180,0.6) 0%,rgba(236,0,140,0.6) 50%,rgba(240,92,137,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(159,118,180,0.6) 0%,rgba(236,0,140,0.6) 50%,rgba(240,92,137,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f76b4', endColorstr='#f05c89',GradientType=0 ); /* IE6-9 */
+  }
+
+  .section-3 {
+   background: rgb(240,92,137,0.6); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(240,92,137,0.6) 0%, rgba(255,208,73,0.6) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(240,92,137,0.6) 0%,rgba(255,208,73,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(240,92,137,0.6) 0%,rgba(255,208,73,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f05c89', endColorstr='#ffd049',GradientType=0 ); /* IE6-9 */
+  }
+
+  .section-4 {
+  background: rgb(255,208,73,0.6); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,208,73,0.6) 0%, rgba(255,242,0,0.6) 49%, rgba(147,206,146,0.6) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,208,73,0.6) 0%,rgba(255,242,0,0.6) 49%,rgba(147,206,146,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,208,73,0.6) 0%,rgba(255,242,0,0.6) 49%,rgba(147,206,146,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd049', endColorstr='#93ce92',GradientType=0 ); /* IE6-9 */
+  }
+
+  .section-5 {
+   background: rgb(147,206,146,0.6); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(147,206,146,0.6) 0%, rgba(0,174,239,0.6) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(147,206,146,0.6) 0%,rgba(0,174,239,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(147,206,146,0.6) 0%,rgba(0,174,239,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93ce92', endColorstr='#00aeef',GradientType=0 ); /* IE6-9 */
+  }
+
+.Loop {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+section {
+  position: relative;
+  text-align: center;
+  min-height: 2000px;
+  max-height: 2500px;
+  height: 80%;
+}
+
+::scrollbar {
+  display: none;
+}
+
+
+
+body {
+  font-family: "Avenir Next", Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+
+
+/*.red {
+  background: #FF4136;
+}
+.green {
+  background: #2ECC40;
+}
+.blue {
+  background: #0074D9;
+}
+.orange {
+  background: rebeccapurple;
+}*/
+
+h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  font-size: 80px;
+  letter-spacing: 5px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+/* Parallax */
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
