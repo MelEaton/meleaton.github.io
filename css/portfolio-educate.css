@@ -133,6 +133,7 @@ h6 {
     right: 50px;
     text-align: right;
     color: #ec1a7d;
+    z-index: 99;
 }
 
 .header-title h2 {
@@ -152,7 +153,32 @@ h6 {
   .masthead h1 {
     font-size: 5.5rem;
   }
+  
 }
+
+
+@media (max-width: 992px) {
+  .footer-email, .footer-phone {
+    position: relative;
+    left: 50%;
+    transform: translate(-25%, 0);
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-email, .footer-phone {
+    transform: translate(-40%, 0);
+  }
+}
+
+
+@media (max-width: 1200px) {
+  #mainNav .container {
+    max-width: none;
+  }
+}
+
+
 
 .menu-toggle {
   position: fixed;
@@ -335,8 +361,8 @@ a:hover, a:focus, a:active {
 
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #f4b608 !important;
-  border-color: #f4b608 !important;
+  background-color: #b1145e !important;
+  border-color: #b1145e !important;
 }
 
 .btn-secondary {
@@ -788,7 +814,48 @@ header.masthead h2 {
   .portfolio-modal .portfolio-modal-dialog h2 {
     font-size: 3rem;
   }
+
 }
+
+@media (max-width: 900px) {
+  .prints {
+  top: calc(-6rem + 200px);
+  }
+
+  .header-title {
+    bottom: -30px;
+    width: 45%;
+}
+
+.masthead h3 {
+    visibility: hidden;
+}
+}
+
+@media (max-width: 600px) {
+  .prints {
+  visibility: hidden;
+  }
+
+.masthead h3 {
+    visibility: visible;
+}
+
+.header-overlay {
+  visibility: hidden;
+}
+
+.header-title {
+    bottom: 20px;
+    right: 0px;
+    width: 100%;
+}
+
+.header-btn {
+  visibility: hidden;
+}
+}
+  
 
 .floating-label-form-group {
   position: relative;
@@ -860,7 +927,7 @@ a {
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #b1145e;
 }
 
 .btn {
@@ -915,8 +982,37 @@ a:focus, a:hover, a:active {
 }
 
 .download-btn:hover {
-  background-color: #f4b608;
+  background-color: #b1145e;
   color: #fff;
+}
+
+.download-btn:focus, .download-btn:active {
+  color: #fff;
+}
+
+.lh-0 {
+  line-height: 0.8;
+}
+
+.faded {
+  opacity: 0.6;
+}
+
+.footer-email, .footer-phone {
+  margin: -15px 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.float-right, .float-left {
+  max-width: 40%;
+  padding: 10px 0 10px 10px;
 }
 
 

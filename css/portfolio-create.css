@@ -133,6 +133,7 @@ h6 {
     right: 50px;
     text-align: right;
     color: #ffc809;
+    z-index: 99;
 }
 
 .header-title h2 {
@@ -346,8 +347,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #f4b608 !important;
+  border-color: #f4b608 !important;
 }
 
 .btn-dark {
@@ -597,6 +598,10 @@ section h2 {
 
 /* PRINT ANIMATION */
 
+/* PRINT ANIMATION */
+
+/*start*/
+
 .prints {
   position: absolute;
   top: calc(-6rem + 106px);
@@ -605,15 +610,51 @@ section h2 {
   z-index: 1;
 }
 
+img.print {
+  position: absolute;
+}
+
+.printC, .printM, .printY, .printK {
+  top: -90px;
+}
+
+.printC2, .printM2, .printY2 {
+  top: -150px;
+}
+
+img.printK {
+  z-index: 9;
+}
+
 .printC, .printM, .printY, .printK {
   transition: all 0.9s !important;
-  -ms-transform: scale(0.6); /* IE 9 */
-  -webkit-transform: scale(0.6); /* Safari 3-8 */
-  transform: scale(0.6);
+  -ms-transform: scale(0.4); /* IE 9 */
+  -webkit-transform: scale(0.4); /* Safari 3-8 */
+  transform: scale(0.4);
   position: relative;
 }
 
-.printC, .printM, .printY {
+.printC2, .printM2, .printY2 {
+  transition: all 0.9s !important;
+  -ms-transform: scale(0.3); /* IE 9 */
+  -webkit-transform: scale(0.3); /* Safari 3-8 */
+  transform: scale(0.3);
+  position: relative;
+
+}
+
+.printC2 {
+left: 80%;
+  } 
+.printM2 {
+left: 100%;
+  } 
+
+.printY2 {
+left: 120%;
+}
+
+.printC, .printM, .printY, .printC2, .printM2, .printY2 {
   opacity: 0;
   } 
 
@@ -621,30 +662,34 @@ section h2 {
   opacity: 0.5;
 }
 
+/* animated */
 
-#printhover:hover > #printK { -ms-transform: translate(10%, 0px)  scale(0.4); /* IE 9 */
-              -webkit-transform: translate(10%, 0px)  scale(0.4); /* Safari 3-8 */
-              transform: translate(10%, 0px)  scale(0.4);
-              top: -200px;
-              opacity: 1; }
+#printhover:hover > #printC2 {transition-delay: 0.4s !important; -ms-transform: scale(0.4); /* IE 9 */
+  -webkit-transform: scale(0.4); /* Safari 3-8 */
+  transform: scale(0.4); opacity: 1;}
+#printhover:hover > #printM2 {-ms-transform: scale(0.4); /* IE 9 */
+  -webkit-transform: scale(0.4); /* Safari 3-8 */
+  transform: scale(0.4);opacity: 1;}
+#printhover:hover > #printY2 {transition-delay: 0.8s !important; -ms-transform: scale(0.4); /* IE 9 */
+  -webkit-transform: scale(0.4); /* Safari 3-8 */
+  transform: scale(0.4);opacity: 1;}
 
-#printhover:hover > #printC { -ms-transform: translate(75%, 0px) scale(0.4); /* IE 9 */
-              -webkit-transform: translate(75%, 0px) scale(0.4); /* Safari 3-8 */
-              transform: translate(75%, 0px) scale(0.4); 
-              top: -200px;
-              opacity: 1;}
-
-#printhover:hover > #printM { -ms-transform: translate(100%, 0px) scale(0.4); /* IE 9 */
-              -webkit-transform: translate(100%, 0px) scale(0.4); /* Safari 3-8 */
-              transform: translate(100%, 0px) scale(0.4); 
-              top: -200px;
-              opacity: 1;}
-
-#printhover:hover > #printY { -ms-transform: translate(125%, 0px) scale(0.4); /* IE 9 */
-              -webkit-transform: translate(125%, 0px) scale(0.4); /* Safari 3-8 */
-              transform: translate(125%, 0px) scale(0.4); 
-              top: -200px;
-              opacity: 1;}
+#printhover:hover > #printK { opacity: 1;}
+#printhover:hover > #printC {transition-delay: 0.6s !important; 
+                            opacity: 0.8;
+                            -ms-transform: scale(0.4) translate(100px,125px) ; /* IE 9 */
+                            -webkit-transform: scale(0.4) translate(100px,125px) ; /* Safari 3-8 */
+                            transform: scale(0.4) translate(100px,125px);}
+#printhover:hover > #printM {transition-delay: 0.2s !important;
+                            opacity: 0.5;
+                            -ms-transform: scale(0.4) translate(125px,-50px) ; /* IE 9 */
+                            -webkit-transform: scale(0.4) translate(125px,-50px) ; /* Safari 3-8 */
+                            transform: scale(0.4) translate(125px,-50px);}
+#printhover:hover > #printY {transition-delay: 1s !important; 
+                            opacity: 0.5;
+                            -ms-transform: scale(0.4) translate(-155px,50px) ; /* IE 9 */
+                            -webkit-transform: scale(0.4) translate(-155px,50px) ; /* Safari 3-8 */
+                            transform: scale(0.4) translate(-155px,50px);}
 
 
 header.masthead {
@@ -756,6 +801,45 @@ img.printK {
   .portfolio-modal .portfolio-modal-dialog h2 {
     font-size: 3rem;
   }
+}
+
+@media (max-width: 900px) {
+  .prints {
+  top: calc(-6rem + 200px);
+  }
+
+  .header-title {
+    bottom: -30px;
+    width: 45%;
+}
+
+.masthead h3 {
+    visibility: hidden;
+}
+}
+
+@media (max-width: 600px) {
+  .prints {
+  visibility: hidden;
+  }
+
+.masthead h3 {
+    visibility: visible;
+}
+
+.header-overlay {
+  visibility: hidden;
+}
+
+.header-title {
+    bottom: 20px;
+    right: 0px;
+    width: 100%;
+}
+
+.header-btn {
+  visibility: hidden;
+}
 }
 
 .floating-label-form-group {
@@ -884,6 +968,10 @@ a:focus, a:hover, a:active {
 
 .download-btn:hover {
   background-color: #f4b608;
+  color: #fff;
+}
+
+.download-btn:focus, .download-btn:active {
   color: #fff;
 }
 
