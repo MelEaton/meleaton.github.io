@@ -975,4 +975,12 @@ a:focus, a:hover, a:active {
   color: #fff;
 }
 
+.lh-0 {
+  line-height: 0.8;
+}
+
+.faded {
+  opacity: 0.6;
+}
+
 

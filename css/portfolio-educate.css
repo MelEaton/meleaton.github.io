@@ -1010,15 +1010,29 @@ a:focus, a:hover, a:active {
   width: 100%;
 }
 
-.float-right, .float-left {
-  max-width: 40%;
-  padding: 10px 0 0 10px;
+.float-right {
+  padding: 10px 0 10px 15px;
+}
+
+.float-left {
+  padding: 10px 15px 0 0;
 }
 
 .profile {
-  max-width: 35%;
   padding: 10px 0 10px 10px;
   float: right;
+}
+
+.quarter {
+  max-width: 25%;
+}
+
+.third {
+  max-width: 33%;
+}
+
+.half {
+  max-width: 50%;
 }
 
 .caption {
