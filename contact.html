@@ -51,7 +51,7 @@
                         <!-- Contact Form -->
                         <form id="contactForm" class="contact-form-card" action="https://formspree.io/f/mkoabonb" method="POST">
                             <!-- Unique subject per submission so Gmail doesn't thread every enquiry together -->
-                            <input type="hidden" name="subject" value="New enquiry from {{ name }}" />
+                            <input type="hidden" name="subject" value="New enquiry from {% raw %}{{ name }}{% endraw %}" />
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <label class="form-label" for="name">Name <span class="text-primary">*</span></label>
