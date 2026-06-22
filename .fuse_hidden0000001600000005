@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="About Mel Eaton — muralist, designer, and the person behind every Off The Wall project." />
+        <meta name="author" content="Mel Eaton" />
+        <title>About | Off The Wall Murals</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/otw.css" rel="stylesheet" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GBRE0M8YTJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GBRE0M8YTJ');
+        </script>
+    </head>
+    <body id="page-top">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/otw-wordmark.svg" alt="Off The Wall Murals" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="commission.html">Commission</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="page-header">
+            <div class="container page-header-content">
+                <h1>About</h1>
+            </div>
+        </header>
+
+        <!-- Mel as Principal -->
+        <section class="page-section" id="mel">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-5">
+                        <!-- TODO: Replace with photo of Mel working on a mural. Current about photos in assets/img/about/ are adequate for launch. -->
+                        <img src="assets/img/about/1.jpg" alt="Mel Eaton — Off The Wall Murals" class="img-fluid about-photo shadow" />
+                    </div>
+                    <div class="col-lg-7">
+                        <p class="section-heading-sm">Principal</p>
+                        <h2 class="section-heading text-uppercase mb-4">Mel Eaton</h2>
+                        <p>I'm Mel Eaton — muralist, designer, and the person behind every Off The Wall project from first brief to final brushstroke.</p>
+                        <p>I've been painting walls professionally for over a decade, with more than 1,000m² of murals across New Zealand — from small feature walls in local hospitality venues to large-scale public works. Before that, and running alongside it, I'm a brand and graphic designer. That combination is what makes the work different: I don't just paint what you describe, I design something that actually reflects your brand and tells your story.</p>
+                        <p>For more on my design practice, visit <a href="https://meleaton.design" target="_blank">meleaton.design</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Capacity -->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <p class="section-heading-sm">How we work</p>
+                        <h2 class="section-heading text-uppercase mb-4">Team capacity</h2>
+                        <p>Off The Wall projects are led by me personally. For larger-scale work I bring in experienced muralists to assist — the scope and timeline in your quote will always reflect what's needed to deliver the job properly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join the Crew -->
+        <section class="page-section" id="join-the-crew">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <p class="section-heading-sm">Collaborate</p>
+                        <h2 class="section-heading text-uppercase mb-4">Join the crew</h2>
+                        <p>I'm always building my network of muralists to collaborate with on larger projects. I'm particularly keen to hear from women and emerging muralists who want more hands-on mural experience.</p>
+                        <p>If that sounds like you, get in touch.</p>
+                        <a href="mailto:hello@offthewallmurals.nz" class="btn btn-primary text-uppercase">hello@offthewallmurals.nz</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">
+                        <small>&copy; Off The Wall Murals 2025</small>
+                    </div>
+                    <div class="col-lg-4 my-3 my-lg-0 text-center">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/offthewall.muralsnz/" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="https://meleaton.design" target="_blank">meleaton.design</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+    </body>
+</html>

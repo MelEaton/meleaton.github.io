@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Off The Wall Murals — bespoke mural painting for hospitality, retail, and commercial interiors. Based in North Canterbury, painting across New Zealand." />
+        <meta name="author" content="Mel Eaton" />
+        <title>Off The Wall Murals | Blank walls become landmarks</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome -->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- CSS -->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/otw.css" rel="stylesheet" />
+        <!-- Google Analytics -->
+        <!-- TODO: Review Analytics reports — check traffic sources, top pages, bounce rates to inform optimisation -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GBRE0M8YTJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GBRE0M8YTJ');
+        </script>
+    </head>
+    <body id="page-top">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/otw-wordmark.svg" alt="Off The Wall Murals" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="commission.html">Commission</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero / Masthead -->
+        <!-- TODO: Replace header-bg.jpg with strongest commercial project image (boating club interior) -->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Bespoke mural painting for hospitality, retail, and commercial interiors</div>
+                <div class="masthead-heading text-uppercase">Blank walls become landmarks</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="commission.html">Start a project</a>
+            </div>
+        </header>
+
+        <!-- Intro -->
+        <section class="page-section" id="intro">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <p class="lead">Off The Wall creates custom murals that do more than decorate — they define how a space feels, reinforce a brand, and give people a reason to stop, look, and come back. Based in North Canterbury and painting across New Zealand, we work with hospitality venues, retailers, and commercial clients who want their spaces to mean something.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Work -->
+        <section class="page-section bg-light" id="featured-work">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 text-center">
+                        <p class="section-heading-sm">Selected projects</p>
+                        <h2 class="section-heading text-uppercase">The Work</h2>
+                    </div>
+                </div>
+                <div class="row g-4 featured-work">
+                    <!-- TODO: Swap first image for boating club once asset is available -->
+                    <div class="col-lg-4 col-md-6">
+                        <img src="assets/img/portfolio/TenForward/tenforward.jpg" alt="Ten Forward gaming centre, Christchurch" class="img-fluid" />
+                        <div class="featured-caption">
+                            <h5>Ten Forward</h5>
+                            <small>Christchurch, Canterbury</small>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <img src="assets/img/portfolio/ShearHavoc/shearhavoc.jpg" alt="Shear Havoc kids salon, Canterbury" class="img-fluid" />
+                        <div class="featured-caption">
+                            <h5>Shear Havoc</h5>
+                            <small>Canterbury</small>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <img src="assets/img/portfolio/InOurHands/blakestreet.jpg" alt="Blake Street Carpark, Christchurch" class="img-fluid" />
+                        <div class="featured-caption">
+                            <h5>Blake Street Carpark</h5>
+                            <small>Christchurch, Canterbury</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col text-center">
+                        <a href="work.html" class="btn btn-outline-dark text-uppercase">See all work</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="page-section" id="how-it-works">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 text-center">
+                        <p class="section-heading-sm">The process</p>
+                        <h2 class="section-heading text-uppercase">How it works</h2>
+                    </div>
+                </div>
+                <div class="row g-4 text-center">
+                    <div class="col-md-3 col-sm-6 how-step">
+                        <div class="how-step-number">01</div>
+                        <h4>Enquire</h4>
+                        <p>Tell us about your wall and what you're after.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 how-step">
+                        <div class="how-step-number">02</div>
+                        <h4>Design</h4>
+                        <p>We develop a scaled concept and digital mockup for your approval.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 how-step">
+                        <div class="how-step-number">03</div>
+                        <h4>Paint</h4>
+                        <p>We arrive on site and handle everything.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 how-step">
+                        <div class="how-step-number">04</div>
+                        <h4>Done</h4>
+                        <p>Final payment on completion. High-res photos delivered.</p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col text-center">
+                        <a href="commission.html" class="btn btn-primary text-uppercase">See the full process</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proof Point -->
+        <section class="proof-point">
+            <div class="container">
+                <span class="proof-figure">1,000m²</span>
+                <p>of murals painted across New Zealand</p>
+            </div>
+        </section>
+
+        <!-- Press Strip -->
+        <section class="press-strip">
+            <div class="container">
+                <p class="press-label">Featured in</p>
+                <div class="press-logos">
+                    <!-- TODO: Add Resene BlackWhite and Essence Magazine logo files to assets/img/logos/ -->
+                    <span class="press-logo-text">Resene BlackWhite Magazine</span>
+                    <span class="press-logo-text">Essence Magazine</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer CTA -->
+        <section class="footer-cta">
+            <div class="container">
+                <h2>Ready to transform your space?</h2>
+                <a href="contact.html" class="btn btn-primary btn-xl text-uppercase">Get in touch</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">
+                        <small>&copy; Off The Wall Murals 2025</small>
+                    </div>
+                    <div class="col-lg-4 my-3 my-lg-0 text-center">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/offthewall.muralsnz/" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="https://meleaton.design" target="_blank">meleaton.design</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Off The Wall Murals services — custom mural design and painting for commercial spaces, hospitality, and retail across New Zealand." />
+        <meta name="author" content="Mel Eaton" />
+        <title>Services | Off The Wall Murals</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/otw.css" rel="stylesheet" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GBRE0M8YTJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GBRE0M8YTJ');
+        </script>
+    </head>
+    <body id="page-top">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/otw-wordmark.svg" alt="Off The Wall Murals" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="commission.html">Commission</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="page-header">
+            <div class="container page-header-content">
+                <h1>What We Do</h1>
+            </div>
+        </header>
+
+        <!-- Core Offering -->
+        <section class="page-section" id="core-offering">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <p class="lead">We design and paint custom murals for commercial spaces — hospitality venues, retail environments, offices, and anywhere a wall faces the world. Every project is handled end to end: from the first conversation about your space through to the final brushstroke.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Three Differentiators -->
+        <section class="page-section bg-light" id="differentiators">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 text-center">
+                        <p class="section-heading-sm">Why Off The Wall</p>
+                        <h2 class="section-heading text-uppercase">What makes the difference</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+
+                        <div class="differentiator">
+                            <h3>We speak brief</h3>
+                            <p>A lot of clients know they want something on the wall but can't quite articulate what. We ask the right questions to draw that out — your brand, your story, your customers, what you want people to feel. The result is a design that makes you say "yes, exactly."</p>
+                        </div>
+
+                        <div class="differentiator">
+                            <h3>What you see is what you get</h3>
+                            <p>Before paint touches your wall, you'll see a scaled digital mockup showing exactly how the finished mural will look in your space. No surprises. No guesswork. Just a clear picture of what you're investing in.</p>
+                        </div>
+
+                        <div class="differentiator">
+                            <h3>Design and painting, one person</h3>
+                            <p>The same person who interprets your brief is the one holding the brush. That continuity means nothing gets lost between concept and execution — and you have one point of contact throughout.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Beyond the Wall -->
+        <section class="page-section" id="beyond-the-wall">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <p class="section-heading-sm">Also available</p>
+                        <h2 class="section-heading text-uppercase mb-4">Beyond the wall</h2>
+                        <p>Murals are our core — but transforming a space sometimes calls for more. We also work with window painting, chalkboard art, vinyl and decal design, and digital display artwork. If it lives on a surface and tells a story, we can help.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proof Point -->
+        <section class="proof-point">
+            <div class="container">
+                <span class="proof-figure">1,000m²</span>
+                <p>of murals painted across New Zealand</p>
+            </div>
+        </section>
+
+        <!-- Footer CTA -->
+        <section class="footer-cta">
+            <div class="container">
+                <h2>Got a wall in mind?</h2>
+                <a href="contact.html" class="btn btn-primary btn-xl text-uppercase">Start a conversation</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">
+                        <small>&copy; Off The Wall Murals 2025</small>
+                    </div>
+                    <div class="col-lg-4 my-3 my-lg-0 text-center">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/offthewall.muralsnz/" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="https://meleaton.design" target="_blank">meleaton.design</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Commission a mural with Off The Wall — learn about the process, pricing, and what to expect. Download the Commission Guide." />
+        <meta name="author" content="Mel Eaton" />
+        <title>Commission | Off The Wall Murals</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/otw.css" rel="stylesheet" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GBRE0M8YTJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GBRE0M8YTJ');
+        </script>
+    </head>
+    <body id="page-top">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/otw-wordmark.svg" alt="Off The Wall Murals" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="commission.html">Commission</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="page-header">
+            <div class="container page-header-content">
+                <h1>Commission a Mural</h1>
+                <p>Everything you need to know before you reach out</p>
+            </div>
+        </header>
+
+        <!-- Intro -->
+        <section class="page-section" id="commission-intro">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <p class="lead">Commissioning a mural is simpler than you might think. This page covers how the process works, what it costs, and what to expect at every stage. By the time you get in touch, you'll already have the answers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What We'll Need -->
+        <section class="page-section bg-light" id="what-we-need">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <p class="section-heading-sm">Before you enquire</p>
+                        <h2 class="section-heading text-uppercase mb-4">What we'll need from you</h2>
+                        <p>To give you a rough estimate, we need three things:</p>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>A photo of the wall or space</li>
+                            <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>The dimensions (width &times; height in metres)</li>
+                            <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>The location</li>
+                        </ul>
+                        <p>Design inspiration is helpful early — Pinterest boards, colour references, examples of work you like — but if you're not there yet, we can guide that conversation. The more you bring to the first contact, the faster we can get you an accurate number.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process -->
+        <section class="page-section" id="process">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 text-center">
+                        <p class="section-heading-sm">Step by step</p>
+                        <h2 class="section-heading text-uppercase">The Process</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Enquire</h4>
+                                <p>Get in touch with a photo of your wall, dimensions, and location. Share any inspiration you have — even rough ideas help.</p>
+                            </div>
+                        </div>
+
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Rough estimate</h4>
+                                <p>Based on your enquiry we'll come back with a rough estimate within 2–3 business days.</p>
+                            </div>
+                        </div>
+
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Site visit</h4>
+                                <p>If the rough estimate works for you, we'll arrange a site visit to confirm dimensions, surface condition, and access requirements.</p>
+                            </div>
+                        </div>
+
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Formal quote &amp; agreement</h4>
+                                <p>You'll receive a detailed quote based on the site visit. A signed agreement and 50% deposit locks in your place in the schedule.</p>
+                            </div>
+                        </div>
+
+                        <div class="process-step">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h4>Design</h4>
+                                <p>We develop a scaled concept and digital mockup for your approval. Two rounds of revisions included. Nothing goes on the wall until you've signed off.</p>
+                            </div>
+                        </div>
+
+                        <div class="process-step">
+                            <div class="step-number">6</div>
+                            <div class="step-content">
+                                <h4>Paint &amp; complete</h4>
+                                <p>We arrive on site and handle everything. Final 50% on completion, high-resolution photos of the finished work delivered.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section class="page-section bg-light" id="pricing">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <p class="section-heading-sm">Investment</p>
+                        <h2 class="section-heading text-uppercase mb-4">Pricing</h2>
+                        <p>Most commercial projects sit between <strong>$5,000 and $18,000 +GST</strong> depending on size, complexity, and access. Every project is quoted individually — download our Commission Guide for a full breakdown of what shapes the investment.</p>
+                        <p class="text-muted" style="font-size:0.9rem;">Payment terms: 50% deposit on signing, 50% on completion. All inclusive — no separate design fee.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Commission Guide Lead Capture -->
+        <section class="page-section" id="commission-guide">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="lead-capture lead-capture-dark">
+                            <h3>Want to understand what a mural project actually costs and how it works?</h3>
+                            <p>Download our Commission Guide — pricing ranges, the full process, materials, and FAQs. Everything you need before you reach out.</p>
+                            <script async data-uid="60d1ce5b49" src="https://off-the-wall-murals-nz.kit.com/60d1ce5b49/index.js"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="page-section bg-light" id="faq">
+            <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-lg-8 text-center">
+                        <p class="section-heading-sm">Questions</p>
+                        <h2 class="section-heading text-uppercase">FAQ</h2>
+                        <p class="text-muted">Full answers are in the <a href="#commission-guide">Commission Guide</a>.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+
+                        <!-- Process & Timeline -->
+                        <p class="faq-category-heading">Process &amp; Timeline</p>
+                        <div class="accordion mb-2" id="faq-process">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-p1">How long does a mural project take?</button>
+                                </h3>
+                                <div id="faq-p1" class="accordion-collapse collapse" data-bs-parent="#faq-process">
+                                    <div class="accordion-body">Most commercial projects take 2–5 days on site, depending on size and complexity. Allow 2–4 weeks from signed agreement to start date for the design phase. Full timelines are in the Commission Guide.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-p2">How far in advance do I need to book?</button>
+                                </h3>
+                                <div id="faq-p2" class="accordion-collapse collapse" data-bs-parent="#faq-process">
+                                    <div class="accordion-body">Popular periods book out quickly. 6–8 weeks lead time is ideal, though we can sometimes move faster for smaller projects. Get in touch early to secure your slot.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-p3">What happens if weather or other factors affect the schedule?</button>
+                                </h3>
+                                <div id="faq-p3" class="accordion-collapse collapse" data-bs-parent="#faq-process">
+                                    <div class="accordion-body">For outdoor murals, we build weather contingency into the schedule. We'll keep you updated and reschedule to the nearest available slot if needed.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Design -->
+                        <p class="faq-category-heading">Design</p>
+                        <div class="accordion mb-2" id="faq-design">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-d1">What if I don't know what I want?</button>
+                                </h3>
+                                <div id="faq-d1" class="accordion-collapse collapse" data-bs-parent="#faq-design">
+                                    <div class="accordion-body">That's completely normal. Our process is designed to draw out what you're looking for — we ask the right questions and do the design thinking.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-d2">How many revisions do I get?</button>
+                                </h3>
+                                <div id="faq-d2" class="accordion-collapse collapse" data-bs-parent="#faq-design">
+                                    <div class="accordion-body">Two rounds of revisions are included in every project. Additional revisions are available at an hourly rate.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-d3">Will I see the design before painting starts?</button>
+                                </h3>
+                                <div id="faq-d3" class="accordion-collapse collapse" data-bs-parent="#faq-design">
+                                    <div class="accordion-body">Yes, always. You'll receive a scaled digital mockup showing exactly how the mural will look in your space. Nothing goes on the wall until you've approved it.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-d4">Can I supply my own design?</button>
+                                </h3>
+                                <div id="faq-d4" class="accordion-collapse collapse" data-bs-parent="#faq-design">
+                                    <div class="accordion-body">Yes — if you have an existing design or artwork you'd like painted, we can work with that. Get in touch to discuss scope and pricing.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Investment -->
+                        <p class="faq-category-heading">Investment</p>
+                        <div class="accordion mb-2" id="faq-investment">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-i1">Why isn't there a fixed price list?</button>
+                                </h3>
+                                <div id="faq-i1" class="accordion-collapse collapse" data-bs-parent="#faq-investment">
+                                    <div class="accordion-body">Murals vary enormously in size, complexity, surface type, and access requirements. Quoting individually means you pay for what your project actually needs — not a one-size-fits-all rate.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-i2">What's included in the quote?</button>
+                                </h3>
+                                <div id="faq-i2" class="accordion-collapse collapse" data-bs-parent="#faq-investment">
+                                    <div class="accordion-body">Design, materials, travel within Canterbury, and painting. No separate design fee. Full detail in the Commission Guide.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-i3">What are the payment terms?</button>
+                                </h3>
+                                <div id="faq-i3" class="accordion-collapse collapse" data-bs-parent="#faq-investment">
+                                    <div class="accordion-body">50% deposit on signing, 50% on completion. All prices are +GST.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Practical -->
+                        <p class="faq-category-heading">Practical</p>
+                        <div class="accordion mb-2" id="faq-practical">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-pr1">Do I need to prepare the wall?</button>
+                                </h3>
+                                <div id="faq-pr1" class="accordion-collapse collapse" data-bs-parent="#faq-practical">
+                                    <div class="accordion-body">We'll confirm surface requirements after the site visit. Most standard interior walls are fine as-is.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-pr2">Do I need to be on site while you paint?</button>
+                                </h3>
+                                <div id="faq-pr2" class="accordion-collapse collapse" data-bs-parent="#faq-practical">
+                                    <div class="accordion-body">No — once the design is approved and the wall is accessible, we handle everything. We'll check in with progress photos along the way.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-pr3">How long will the mural last?</button>
+                                </h3>
+                                <div id="faq-pr3" class="accordion-collapse collapse" data-bs-parent="#faq-practical">
+                                    <div class="accordion-body">Interior murals painted with quality paint (we use Resene Lumbersider exclusively) last decades with normal care. Exterior murals may need touch-ups over time depending on UV and weather exposure.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-pr4">Can a mural be painted over or removed?</button>
+                                </h3>
+                                <div id="faq-pr4" class="accordion-collapse collapse" data-bs-parent="#faq-practical">
+                                    <div class="accordion-body">Yes — murals are painted with regular wall paint and can be painted over. If potential future removal is a concern, let us know upfront so we can discuss options.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Working with Off The Wall -->
+                        <p class="faq-category-heading">Working with Off The Wall</p>
+                        <div class="accordion" id="faq-otw">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-w1">Do you travel outside Canterbury?</button>
+                                </h3>
+                                <div id="faq-w1" class="accordion-collapse collapse" data-bs-parent="#faq-otw">
+                                    <div class="accordion-body">Yes — we're based in North Canterbury but paint across New Zealand. Travel costs are included in quotes for out-of-region projects.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-w2">Do you work alone or with a team?</button>
+                                </h3>
+                                <div id="faq-w2" class="accordion-collapse collapse" data-bs-parent="#faq-otw">
+                                    <div class="accordion-body">Projects are always led by Mel. For larger-scale work, we bring in experienced muralists to assist — this is reflected in the quote and timeline.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-w3">What if I want changes once painting has started?</button>
+                                </h3>
+                                <div id="faq-w3" class="accordion-collapse collapse" data-bs-parent="#faq-otw">
+                                    <div class="accordion-body">Minor changes can sometimes be accommodated — contact us immediately if something comes up. Significant changes may affect the timeline and cost.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer CTA -->
+        <section class="footer-cta">
+            <div class="container">
+                <h2>Ready to talk about your wall?</h2>
+                <a href="contact.html" class="btn btn-primary btn-xl text-uppercase">Get in touch</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">
+                        <small>&copy; Off The Wall Murals 2025</small>
+                    </div>
+                    <div class="col-lg-4 my-3 my-lg-0 text-center">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/offthewall.muralsnz/" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="https://meleaton.design" target="_blank">meleaton.design</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+    </body>
+</html>

@@ -1,809 +1,196 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Quality custom mural paintings for your home, business, school or community - Canterbury NZ based artists Mel Eaton and Laura Hewetson" />
-        <meta name="author" content="Mel Eaton - Laura Hewetson" />
-        <title>Off The Wall | Murals NZ</title>
-        <!-- Favicon-->
+        <meta name="description" content="Off The Wall Murals — bespoke mural painting for hospitality, retail, and commercial interiors. Based in North Canterbury, painting across New Zealand." />
+        <meta name="author" content="Mel Eaton" />
+        <title>Off The Wall Murals | Blank walls become landmarks</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
+        <!-- Font Awesome -->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- CSS -->
         <link href="css/styles.css" rel="stylesheet" />
-
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GBRE0M8YTJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-GBRE0M8YTJ');
-</script>
+        <link href="css/otw.css" rel="stylesheet" />
+        <!-- Google Analytics -->
+        <!-- TODO: Review Analytics reports — check traffic sources, top pages, bounce rates to inform optimisation -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GBRE0M8YTJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GBRE0M8YTJ');
+        </script>
     </head>
     <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/OffTheWallLogo2-04.svg" alt="..." /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#commission">Commission</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
+
+        {% include nav.html %}
+
+        <!-- Hero / Masthead -->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Off The Wall</div>
-                <div class="masthead-heading text-uppercase">MURAL PAINTING</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="mailto:offthewall.muralsnz@gmail.com" target="blank">CONTACT US!</a>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2 mb-5 mb-lg-0">
+                        <div class="hero-carousel">
+                            <div class="hero-carousel-slide active" style="background-image: url('assets/img/hero/hero-01.png');"></div>
+                            <div class="hero-carousel-slide" style="background-image: url('assets/img/hero/hero-02.png');"></div>
+                            <div class="hero-carousel-slide" style="background-image: url('assets/img/hero/hero-03.png');"></div>
+                            <div class="hero-carousel-slide" style="background-image: url('assets/img/hero/hero-04.png');"></div>
+                            <div class="hero-carousel-slide" style="background-image: url('assets/img/hero/hero-05.png');"></div>
+                            <div class="hero-carousel-slide" style="background-image: url('assets/img/hero/hero-06.png');"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="masthead-subheading">Bespoke mural painting for hospitality, retail, and commercial interiors</div>
+                        <div class="masthead-heading">Blank walls become<span class="masthead-heading-accent">Landmarks</span></div>
+                        <a class="btn btn-primary btn-xl text-uppercase" href="commission.html">Start a project</a>
+                    </div>
+                </div>
             </div>
         </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
+
+        <!-- Intro -->
+        <section class="page-section pb-0" id="intro">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h4 class="section-subheading text-muted">We create artwork for your spaces</h4>
-                    <h3 class="section-subheading text-muted">Quality custom mural paintings for your home, business, school or community here in New Zealand</h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Design</h4>
-                        <p class="text-muted">Whether you have a clear vision in your mind or you are searching for creative inspiration and guidance, we can design your completely custom mural from first concept scribbles to final execution.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-palette fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Paint</h4>
-                        <p class="text-muted">Using high quality materials, to ensure a long lasting finish, we can expertly create your mural designs for indoor or outdoor spaces, from small to large scale, places in private or commercial settings.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-rocket fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">And more...</h4>
-                        <p class="text-muted">We can do so much more to create unique spaces with cohesive designs. We also offer services for chalkboard designs, digitally produced vinyl graphics, window painting and more. Get in touch for details!</p>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <p class="lead">Off The Wall creates custom murals go beyond decoration and define how a space feels, reinforce a brand, and give people a reason to stop, look, and come back. Based in North Canterbury and painting across New Zealand, we work with hospitality venues, retailers, and commercial clients who want their spaces to mean something.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
+
+        <!-- Intro Photo -->
+        <section class="intro-photo-section">
+            <img src="assets/img/work/public/In%20our%20hands/IOH6.jpg" alt="In Our Hands mural — wide view of the Haast eagle and colourful native birds across the Rangiora carpark wall" class="intro-photo" />
+        </section>
+
+        <!-- Featured Work -->
+        <section class="page-section bg-light" id="featured-work">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted"><strong>CLICK</strong> to take a look at a selection of our previous projects </h3>
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 text-center">
+                        <p class="section-heading-sm">Spaces into places</p>
+                        <h2 class="section-heading section-heading-script text-uppercase">The Work</h2>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/InOurHands/portfolio_blakestreet.jpg" alt="bright coloured mural painting of native NZ birds" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">In Our Hands</div>
-                                <div class="portfolio-caption-subheading text-muted">Blake Street, Rangiora</div>
-                            </div>
-                        </div>
+                <div class="row g-4 featured-work">
+                    <!-- Temp removing caption -->
+                    <div class="col-lg-4 col-md-6">
+                        <img src="assets/img/work/commercial/PullingTogether/PT1.jpg" alt="Pulling Together mural — golden hour view of the clubrooms and 'Kaiapoi' lettering at Cure Boat Club" class="img-fluid" />
+                        <!-- <div class="featured-caption">
+                            <h5>title</h5>
+                            <small>location</small>
+                        </div>-->
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/Wallworthy/whiriatetangata.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Wall Worthy</div>
-                                <div class="portfolio-caption-subheading text-muted">KNZB School Murals</div>
-                            </div>
-                        </div>
+                    <div class="col-lg-4 col-md-6">
+                        <img src="assets/img/work/commercial/PixelParty/tenforward.jpg" alt="Pixel Party mural — finished Minecraft, Donkey Kong, Pikachu and Sonic character line-up at Ten Forward" class="img-fluid" />
+                        <!-- <div class="featured-caption">
+                            <h5>title</h5>
+                            <small>location</small>
+                        </div>-->
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/Diamond/yourock.jpg" alt="graffiti style mural painting inspirational quote" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">#YouRock</div>
-                                <div class="portfolio-caption-subheading text-muted">Katie Riddel Gym, Rangiora</div>
-                            </div>
-                        </div>
+                    <div class="col-lg-4 col-md-6">
+                        <img src="assets/img/work/commercial/YouRock/diamondfinished.jpg" alt="You Rock mural — finished 'Pressure creates diamonds, struggle creates strength' design on the Riddell Gym wall" class="img-fluid" />
+                        <!-- <div class="featured-caption">
+                            <h5>title</h5>
+                            <small>location</small>
+                        </div>-->
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/TenForward/tenforward.jpg" alt="mural painting of gaming characters breaking through wall" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Gamer Heaven</div>
-                                <div class="portfolio-caption-subheading text-muted">Ten Forward, Rangiora</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/ShearHavoc/shearhavoc.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Shear Havoc</div>
-                                <div class="portfolio-caption-subheading text-muted">Kids Hairdresser</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/Cust/custcard.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Playtime</div>
-                                <div class="portfolio-caption-subheading text-muted">Cust School Playground</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 7-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/Chorus/tui4.jpg" alt="kids hair salon with exciting mural design" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Cabinet Art</div>
-                                <div class="portfolio-caption-subheading text-muted">Chorus Commission</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 8-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal8">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/PUP/PUPcard.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Wild In Art</div>
-                                <div class="portfolio-caption-subheading text-muted">Pop Up Penguin Art Trail</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 9-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal9">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/Kids/graffiti.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Making it their own</div>
-                                <div class="portfolio-caption-subheading text-muted">Kids Bedroom Commissions</div>
-                            </div>
-                        </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col text-center">
+                        <a href="work.html" class="btn btn-outline-dark text-uppercase">See all work</a>
                     </div>
                 </div>
             </div>
-            <div class="text-center"><a class="btn btn-primary btn-xl text-uppercase" href="https://www.facebook.com/OffTheWall.MuralsNZ" target="blank">FRESH PAINT</a></div>
-            <div class="text-center">
-                    <h3 class="section-subheading text-muted" style="padding-top: 30px;">Check out our most recent work</h3>
+        </section>
+
+        <!-- How It Works -->
+        <section class="page-section section-dark" id="how-it-works">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 text-center">
+                        <p class="section-heading-sm">How it works</p>
+                        <h2 class="section-heading section-heading-script text-uppercase">The Process</h2>
+                    </div>
                 </div>
+                <div class="process-steps">
+                    <div class="process-circle">
+                        <h4>Enquire</h4>
+                        <p>Tell us about your wall and what you're after.</p>
+                    </div>
+                    <div class="process-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="process-circle">
+                        <h4>Design</h4>
+                        <p>We develop a scaled concept and digital mockup for your approval.</p>
+                    </div>
+                    <div class="process-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="process-circle">
+                        <h4>Paint</h4>
+                        <p>We arrive on site and handle everything.</p>
+                    </div>
+                    <div class="process-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="process-circle">
+                        <h4>Done</h4>
+                        <p>Final payment on completion. High-res photos delivered.</p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col text-center">
+                        <a href="commission.html" class="btn btn-primary text-uppercase">See how to commission</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proof Point -->
+        <section class="proof-point">
+            <div class="container">
+                <span class="proof-figure">1,000m²</span>
+                <p>of murals painted across New Zealand</p>
+            </div>
+        </section>
+        <section class="map-link">
+            <a href="work.html#map-section" class="proof-map-link">
+                    <span>Putting art on the map</span>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Visit all the OTW sites</span>
+                </a>
+        </section>
+
+        <!-- Press Strip - WILL ADD LATER -->
+        <!-- <section class="press-strip">
+            <div class="container">
+                <p class="press-label">Featured in</p>
+                <div class="press-logos">
+                    <span class="press-logo-text">Resene BlackWhite Magazine</span>
+                    <span class="press-logo-text">Essence Magazine</span>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Social Feed -->
+        <section class="social-feed">
             <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
         </section>
-        <!-- Commission -->
-        <section class="page-section" id="commission">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Commission</h2>
-                    <h3 class="section-subheading text-muted">Want to get a mural? Here's how...</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Stage 1</h4>
-                                <h4 class="subheading text-muted">Get in touch</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Check out our <a href="https://drive.google.com/drive/folders/1Uc8546Bg_R2KHiJJZvbWq5Vo-xA9C3rd?usp=sharing" target="blank">mural package</a> with details regarding our engagement process and fill in our <a href="https://7mmirpff1n7.typeform.com/to/etXfhyuh" target="blank">questionnaire</a> about your project so we can start talking about bringing your ideas to life</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Stage 2</h4>
-                                <h4 class="subheading text-muted">Free Consultation</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">We will arrange a free consultation (on site if possible) to discuss ideas, timeline requirements and pricing. From this we will supply you with a commission agreement, which includes a price quote for design and painting services</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Stage 3</h4>
-                                <h4 class="subheading text-muted">Design</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">We will provide you with a digital design of your mural, also shown insitu for your reference. The design price includes up to two revisions if required. Once design is approved we can start painting! Note: Payment for design must be made in advance and is non-refundable</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Stage 4</h4>
-                                <h4 class="subheading text-muted">Painting</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">We take the upmost care to create your mural using high quality materials. Note: Half of the painting payment is required one week in advance of work starting while the remaining half must be paid within one week of the work being completed.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Enjoy your
-                                <br />
-                                custom
-                                <br />
-                                artwork!
-                            </h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- Team-->
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">The Team</h2>
-                    <h3 class="section-subheading text-muted">Bringing your spaces to life with off the wall ideas</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Mel Eaton</h4>
-                            <p class="text-muted">Compulsive Creative</p>
-                            <a class="btn btn-dark btn-social mx-3" href="https://www.instagram.com/mel.eaton.designs" target="blank"><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-dark btn-social mx-3" href="https://www.facebook.com/mel.eaton.designs" target="blank"><i class="fab fa-facebook-f"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>Laura Hewetson</h4>
-                            <p class="text-muted">Jack Of All Trades</p>
-                            <a class="btn btn-dark btn-social mx-3" href="https://www.instagram.com/thisislaurasusanartist" target="blank"><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-dark btn-social mx-3" href="https://www.facebook.com/thisislaurasusanartist" target="blank"><i class="fab fa-facebook-f"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Mel and Laura are two North Canterbury, New Zealand based artists who have teamed up on several project during their awesome friendship. Developing 'Off The Wall' is the natural result of their creative desire to paint the town and share their creativity!</p></div>
-                </div>
-            </div>
-        </section>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-white-50">Get in touch today to find out what we can do for you</h3>
-                    <a class="btn btn-primary btn-xl text-uppercase" href="mailto:offthewall.muralsnz@gmail.com" target="blank">Hello!</a>
-                    <br>
-                    <br>
-                    <h3 class="section-subheading text-white-50"><strong>Email:</strong> &nbsp; &nbsp;OffTheWall.MuralsNZ@gmail.com</h3>
-                </div>
-                
-                
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Off The Wall Murals NZ</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-4" href="https://www.instagram.com/offthewall.muralsnz" target="blank"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-dark btn-social mx-4" href="https://www.facebook.com/offthewall.muralsnz" target="blank"><i class="fab fa-facebook-f"></i></a>
-                        <!-- <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <!-- <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a> -->
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">In Our Hands</h2>
-                                    <p class="item-intro text-muted">Blake Street Carpark, Rangiora</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/InOurHands/blakestreet.jpg" alt="brightly coloured mural painting of nz birds in Rangiora" />
-                                    <h3>Where 'Off The Wall' Began...</h2>
-                                    <p>In early 2021 we learnt a lot about 'Going Big or Going Home' on this monumental project (150 square meters!) in the Blake Street carpark in Rangiora. It was a labour of love that has seen a lot of blood sweat and tears but has ultimately been an absolute passion project. We love this mural!<br><br>
-                                    This work - titled 'In Our Hands' - was part of a community project with NEST Arts Collective, the result of winning a Keep New Zealand Beautiful nature mural competition and supported by a Waimakariri Creative Communities grant. There were a lot of hiccups as we navigated the carpark, big scaffold equipment, temperamental weather and a shifting timeline. But positive comments and support from people passing by encouraged us and it has been so rewarding to hear from people who love the burst of colour in the community.<br><br>
-                                    We believe murals, public artworks, visual messages and colour add so much to the texture and personality of a place. We really hope to bring more beautiful murals to our local spaces!
-                                    </p>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/InOurHands/IOH5.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/InOurHands/IOH3.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/InOurHands/IOH2.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/InOurHands/IOH4.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/InOurHands/IOH6.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/InOurHands/portfolio_blakestreet.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Wall Worthy</h2>
-                                    <p class="item-intro text-muted">School Murals with help from KNZB</p>
-                                    <h3>Giving to our kura community</h2>
-                                    <p>Keep New Zealand Beautiful and Resene partner together to offer school communities the opportunity to brighten their spaces through their <a href="https://www.knzb.org.nz/programmes/paint-new-zealand-beautiful/resene-wall-worthy-competition/" target="blank">Wall Worthy competition</a>. We have thoroughly enjoyed working with several kura in our Rangiora community, bringing their ideas to life and working with students. It has been rewarding to participate alongside students in creating fun works that definitely liven their learning spaces.</p>
-                                        <h4>Ashgrove School</h4>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Wallworthy/ashgrove.jpg" alt="" />
-                                        <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Wallworthy/AshgroveMockup.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Wallworthy/ashgrove2.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Wallworthy/ashgrove1.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Wallworthy/ashgrove3.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="container">
-                                        <div class="row">
-                                            <h4>Broomfield School</h4>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Wallworthy/broomfield.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Wallworthy/broomfieldkids.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="container">
-                                        <div class="row">
-                                            <h4>Rangiora Playcenter and Little Peppertree Preschool</h4>
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Wallworthy/whiriatangata.jpg" alt="" />
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Wallworthy/whiriatetangata.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Wallworthy/rangioraplaycenter.jpeg" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p>
-                                    The Wall Worthy competition is an awesome opportunity to make adding a new professional mural painting to the school property more accessible and affordable.
-                                    </p>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">#YouRock</h2>
-                                    <p class="item-intro text-muted">Katie Riddell Gym, Rangiora</p>
-                                    <h3>Getting Motivated</h2>
-                                    <p>Katie wanted a graffiti style inspirational message for her home-based gym. She was fully renovating her garage and wanted the walls to go from drab conrete blocks to something fantastic. As she trained mostly female customers she wanted something appropriate without being too girly. We settled on a quote and design that was a lot of fun to create and right on brand for her personal training gym!</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Diamond/diamondfinished.jpg" alt="" />
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Diamond/diamondbefore.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Diamond/diamondduring.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Diamond/diamonddetail2.jpg" alt="" />
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Diamond/diamonddetail.jpg" alt="" />
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Gamer Heaven</h2>
-                                    <p class="item-intro text-muted">Ten Forward, Rangiora</p>
-                                    <h3>Let's Play!</h2>
-                                    <p>When we met <a href="https://www.facebook.com/TenForwardRangiora" target="blank">Ten Forward</a> they were a brand new business looking for bold, fun and funky artwork for their walls. As a gaming center, that would offer afterschool activities and birthday party functions, we knew we obviously need to draw our inspiration from the games that kids would be playing in the space. For this commission we wanted to create an imersive experience. We evaluated the space and worked back and forth with Ten Forward to design how the mural could make maximum impact whilst staying within their budget for a new business. The results have been a hit with everyone that steps through the door.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/TenForward/tenforward.jpg" alt="" />
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/TenForward/tenforward1.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/TenForward/tenforward2.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p>We also put together the design for window decals that were on brand and worked well with the overall design of the location. We liaised with a local printer to deliver the designs which they intalled.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/TenForward/tenforward3.jpg" alt="" />
+        {% include footer.html %}
 
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 5 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Shear Havoc</h2>
-                                    <p class="item-intro text-muted">Kids Hairdresser</p>
-                                    <p>The amazing team at <a href="https://www.shearhavoc.co.nz/" target="blank">Shear Havoc</a> work with the littlest clients but they had BIG ideas for how they would like their brand new salon extension to look. The brief was simple - exciting characters that kids love adorning the walls to create an inspirational space. We kept the palette within the range of the business brand colours and worked the different characters in and around the mirrors, shelves and chairs.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/ShearHavoc/shearhavoc.jpg" alt="" />
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/ShearHavoc/shearhavoc1.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/ShearHavoc/shearhavoc3.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/ShearHavoc/shearhavoc4.jpg" alt="" />
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Playtime</h2>
-                                    <p class="item-intro text-muted">Cust School Playground</p>
-                                    <p>We really did get off the wall with this commission, creating a series of playground games for students to enjoy!</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Cust/custcard.jpg" alt="" />
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Cust/cust3.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Cust/cust4.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Cust/cust5.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Cust/cust6.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Cust/cust2.jpg" alt="" />
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 7 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Cabinet Art</h2>
-                                    <p class="item-intro text-muted">Chorus Commission</p>
-                                    
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Chorus/tui2.jpg" alt="" />
-                                    
-                                        <p>The <a href="https://www.chorus.co.nz/community/cabinet-art-programme" target="blank">Chorus Cabinet Art</a> program is an awesome opportunity offered to artists, asking them to submit designs for revamping the many telecommunications cabinets across New Zealand. Once a year a selection of cabinets are made available for painting and working in partnership with local councils they choose from designs submitted and commission local artists to get to work. We made our mark on the cabinet on High Street, Rangiora and we hope to have a go at more in the future!</p>
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Chorus/tui1.jpg" alt="" />
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Chorus/tui4.jpg" alt="" />
-                                        
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- Portfolio item 8 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Wild In Art</h2>
-                                    <p class="item-intro text-muted">Pop Up Penguin Art Trail</p>
-                                    <h3>Waddle Waddle!</h2>
-                                    <p>There have been several <a href="https://www.wildinart.co.uk/" target="blank">Wild In Art</a> trails in New Zealand, a brilliant charity fundraising event. We were increadibly excited to be part of the <a href="https://popuppenguins.co.nz/" target="blank">Pop Up Penguin</a> art trail in Christchurch. Artists from all across the city submitted designs for consideration and those who were chosen by sponsors were commissioned to paint large fibreglass sculptures. It was an amazing experience from start to finish, from collecting our sculptures for painting, meeting other artists participating in the trail, exploring the city to discover painted penguins and attending a nailbiting auction where over one million dollars was raised for charity.</p>
-
-                                    
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/PUP/penguinghosts.jpg" alt="" />
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/PUP/penguincollection.jpg" alt="" />
-                                    <p>Between us we painted 3 penguins - Birds of a Feather, Ice and Punk It Penguin.</p>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/PUP/icepenguin.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/PUP/PUP.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/PUP/punkitpenguin.jpg" alt="" />
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 9 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Making It Their Own</h2>
-                                    <p class="item-intro text-muted">Kids bedroom commissions</p>
-                                    <p>We have painted several custom murals for some very lucky kids! Some commissions have been the final touch on an exciting new home build, others have been gifted as unique birthday presents. In all cases we have learnt all about what our kid clients love and put it up on the wall in their own personal haven.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kids/slamdunk.jpg" alt="" />
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kids/graffiti.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kids/beachwave.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kids/creeper2.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6 mb-4">
-                                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kids/creeper1.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 10 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/.jpg" alt="..." />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <!-- <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            x
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            x
-                                        </li>
-                                    </ul> -->
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Bootstrap core JS-->
+        <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- Instagram feed -->
+
+        <!-- Curator io -->
         <script type="text/javascript">
-/* curator-feed-default-feed-layout */
-(function(){
-var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
-i.src="https://cdn.curator.io/published/b296914d-e1c8-49a8-8fef-9f00d80a85df.js";
-e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
-})();
-</script>
+        /* curator-feed-default-feed-layout */
+            (function(){
+            var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+            i.src="https://cdn.curator.io/published/b296914d-e1c8-49a8-8fef-9f00d80a85df.js";
+            e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+            })();
+        </script>
     </body>
 </html>
