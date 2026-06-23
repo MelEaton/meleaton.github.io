@@ -57,4 +57,31 @@ window.addEventListener('DOMContentLoaded', event => {
         }
     }
 
+    // GA4 — contact form submission
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function () {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'generate_lead', {
+                    event_category: 'Contact',
+                    event_label: 'Contact Form'
+                });
+            }
+        });
+    }
+
+});
+
+// GA4 — Kit guide downloads (outside DOMContentLoaded as Kit loads async)
+document.addEventListener('formkit:submit', function (e) {
+    if (typeof gtag === 'undefined') return;
+    var label = 'Guide Download';
+    if (e.detail && e.detail.uid) {
+        if (e.detail.uid === '60d1ce5b49') label = 'Commission Guide';
+        if (e.detail.uid === '78be0f0124') label = 'Community Funding Guide';
+    }
+    gtag('event', 'guide_download', {
+        event_category: 'Kit Form',
+        event_label: label
+    });
 });
