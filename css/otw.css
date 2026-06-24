@@ -1514,3 +1514,102 @@ footer.footer a:hover {
    UTILITIES
    ============================================================ */
 .text-primary { color: var(--otw-primary) !important; }
+
+
+/* ============================================================
+   JOURNAL
+   ============================================================ */
+
+/* Post meta (date, category label) */
+.post-meta {
+    font-size: 0.85rem;
+    color: var(--otw-mid);
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+/* Hero image below post header */
+.post-hero {
+    width: 100%;
+    max-height: 520px;
+    overflow: hidden;
+}
+
+.post-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Post body typography */
+.post-body h2 {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.post-body p {
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+}
+
+.post-body a {
+    color: var(--otw-primary);
+    text-decoration: underline;
+}
+
+.post-body strong {
+    font-weight: 600;
+}
+
+/* Journal index cards */
+a.journal-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: box-shadow 0.2s ease;
+    height: 100%;
+}
+
+a.journal-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    color: inherit;
+}
+
+.journal-card-img {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+.journal-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+a.journal-card:hover .journal-card-img img {
+    transform: scale(1.03);
+}
+
+.journal-card-body {
+    padding: 1.25rem 1.5rem 1.5rem;
+}
+
+.journal-card-body h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.journal-card-excerpt {
+    font-size: 0.9rem;
+    color: var(--otw-mid);
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+}

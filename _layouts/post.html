@@ -1,0 +1,63 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="{{ page.description }}" />
+        <meta name="author" content="Mel Eaton" />
+        <title>{{ page.title }} | Off The Wall Murals</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="/css/styles.css" rel="stylesheet" />
+        <link href="/css/otw.css" rel="stylesheet" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GBRE0M8YTJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GBRE0M8YTJ');
+        </script>
+    </head>
+    <body id="page-top">
+
+        {% include nav.html %}
+
+        <!-- Post Header -->
+        <header class="page-header">
+            <div class="container page-header-content">
+                <p class="otw-label">{{ page.category | default: "Journal" }}</p>
+                <h1>{{ page.title }}</h1>
+                {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+                <p class="post-meta">{{ page.date | date: "%-d %B %Y" }}</p>
+            </div>
+        </header>
+
+        {% if page.hero_image %}
+        <div class="post-hero">
+            <img src="{{ page.hero_image }}" alt="{{ page.hero_alt | default: page.title }}" />
+        </div>
+        {% endif %}
+
+        <!-- Post Content -->
+        <section class="page-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 post-body">
+                        {{ content }}
+                        <div class="post-footer mt-5 pt-4">
+                            <a href="/journal/" class="btn btn-outline-secondary text-uppercase">&larr; All posts</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {% include footer.html %}
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/scripts.js"></script>
+
+    </body>
+</html>

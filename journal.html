@@ -1,0 +1,74 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="The Off The Wall Murals journal — project stories, guides, and ideas on mural painting in New Zealand." />
+        <meta name="author" content="Mel Eaton" />
+        <title>Journal | Off The Wall Murals</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/otw.css" rel="stylesheet" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GBRE0M8YTJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GBRE0M8YTJ');
+        </script>
+    </head>
+    <body id="page-top">
+
+        {% include nav.html %}
+
+        <!-- Page Header -->
+        <header class="page-header">
+            <div class="container page-header-content">
+                <h1>Journal</h1>
+                <p>Project stories, guides, and ideas on mural painting in New Zealand.</p>
+            </div>
+        </header>
+
+        <!-- Posts -->
+        <section class="page-section">
+            <div class="container">
+                {% if site.posts.size > 0 %}
+                <div class="row g-4">
+                    {% for post in site.posts %}
+                    <div class="col-md-6 col-lg-4">
+                        <a href="{{ post.url }}" class="journal-card">
+                            {% if post.card_image %}
+                            <div class="journal-card-img">
+                                <img src="{{ post.card_image }}" alt="{{ post.card_alt | default: post.title }}" />
+                            </div>
+                            {% endif %}
+                            <div class="journal-card-body">
+                                <p class="otw-label">{{ post.category | default: "Journal" }}</p>
+                                <h3>{{ post.title }}</h3>
+                                {% if post.description %}<p class="journal-card-excerpt">{{ post.description }}</p>{% endif %}
+                                <p class="post-meta">{{ post.date | date: "%-d %B %Y" }}</p>
+                            </div>
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <p class="text-muted">First post coming soon.</p>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </section>
+
+        {% include footer.html %}
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+    </body>
+</html>

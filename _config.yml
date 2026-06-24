@@ -1,0 +1,16 @@
+title: Off The Wall Murals
+description: Bespoke mural painting for hospitality, retail, and commercial interiors. Based in North Canterbury, painting across New Zealand.
+url: https://www.offthewallmurals.nz
+baseurl: ""
+
+# Post URLs: /journal/post-slug/
+permalink: /journal/:slug/
+
+# Exclude files from the build
+exclude:
+  - OTW_SEO_Strategy.md
+  - google-search-console-setup.md
+  - meta_description_audit.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
