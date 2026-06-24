@@ -3,8 +3,13 @@ description: Bespoke mural painting for hospitality, retail, and commercial inte
 url: https://www.offthewallmurals.nz
 baseurl: ""
 
-# Post URLs: /journal/post-slug/
-permalink: /journal/:slug/
+# Post URLs: /journal/post-slug/ (scoped to posts only)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /journal/:slug/
 
 # Exclude files from the build
 exclude:
